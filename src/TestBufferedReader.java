@@ -1,4 +1,8 @@
-
+/**
+ * 
+ * @author Anselme Guillaume
+ * Essai sur les entrée et sortie
+ */
 import java.io.*;
 
 public class TestBufferedReader {
@@ -10,7 +14,7 @@ public class TestBufferedReader {
   }
 
   public static void main(String args[]) {
-    new TestBufferedReader("source.txt");
+    new TestBufferedReader("C://Users/AnselmeG/Documents/Exercices/AdvEx3File/texte.txt");
   }
 
   private void lecture() { 

@@ -1,3 +1,8 @@
+/**
+ * 
+ * @author Anselme Guillaume
+ * Essai sur les entrée et sortie
+ */
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -31,7 +36,7 @@ public class TestBufferedWriter {
 			for(String line : lines) {
 				bw.write(line);
 				bw.newLine();
-				System.out.println(line);
+//				System.out.println(line);
 			}
 			
 			bw.close();

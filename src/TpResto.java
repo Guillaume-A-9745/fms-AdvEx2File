@@ -53,7 +53,7 @@ public class TpResto {
 				System.out.println("Résumé de la commande "+(i+1));
 				System.out.println(order);		//ici on pourrait stocker la commande en base par exemple
 				System.out.println();			//avant de passer à la suivante	
-				bw.write("************ Résumé de la commande "+ (i+1) + " ***********");
+				bw.write("************ Résumé de la commande N°"+ (i+1) + " ***********");
 				bw.newLine();
 				for(String choice : order) {
 					bw.write(choice);
